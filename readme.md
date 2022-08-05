@@ -15,6 +15,23 @@ e-comerce de productos de lavanda, orientado a público en general.
 font-family: 'Poppins', sans-serif;
 
 ● Paleta de colores:
+<<<<<<< HEAD
+=======
+ECA3F5
+FDBAF8
+B0EFEB
+EDFFA9
+
+FCE2DB
+FF8FB1
+B270A2
+7A4495
+
+513252
+7A4069
+CA4E79
+FFC18E
+>>>>>>> a1edc53 (todo junto)
 
 #B519DF
 #8E19DF
