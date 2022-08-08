@@ -10,11 +10,12 @@
   background-position: center;
 }
 
-/* Style img */
+/* Style image */
 .Producto {
-  width: 355px;
-  height: 355px;
+  width: 211px;
+  height: 211px;
   object-fit: fill;
+  border-radius: 10%;
 }
 
 /* style dropdown menu */
@@ -64,8 +65,8 @@
 /* Style click menu icon */
 container {
   display: inline-block;
-  cursor: pointer;
   align-items: flex-end;
+  cursor: pointer;
 }
 
 .bar1,
@@ -178,5 +179,46 @@ container {
   text-align: right;
   align-items: center;
   align-content: center;
+}
+
+/* H1 style */
+.H1h {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+/* boton de comprar y ver mas style */
+.ContainerH {
+  position: relative;
+  width: 50%;
+}
+.VerMH {
+  position: relative;
+  top: 60%;
+  left: 61%;
+  transform: translate(-30%, -30%);
+  -ms-transform: translate(-30%, -30%);
+  background-color: #b270a2;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.ComprarH {
+  position: relative;
+  top: 60%;
+  left: 60%;
+  transform: translate(-30%, -30%);
+  -ms-transform: translate(-30%, -30%);
+  background-color: #b270a2;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
 }
 /* aaaaaaaaaaa */
