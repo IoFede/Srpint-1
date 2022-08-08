@@ -99,7 +99,7 @@ container {
   transition: 0.4s;
 }
 
-.change .bar1 {
+/* .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
   transform: rotate(-45deg) translate(-9px, 6px);
 }
@@ -111,7 +111,7 @@ container {
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
-}
+} */
 
 /* estilo navbar */
 
@@ -217,10 +217,10 @@ container {
 }
 .VerMH {
   position: relative;
-  top: 10%;
+  /* top: 10%;
   left: 61%;
   transform: translate(-90%, -120%);
-  -ms-transform: translate(-90%, -120%);
+  -ms-transform: translate(-90%, -120%); */
   background-color: #b270a2;
   color: rgb(0, 0, 0);
   font-size: 12px;
@@ -232,10 +232,10 @@ container {
 
 .ComprarH {
   position: relative;
-  top: 50%;
+  /* top: 50%;
   left: 79%;
   transform: translate(-90%, -250%);
-  -ms-transform: translate(-90%, -250%);
+  -ms-transform: translate(-90%, -250%); */
   background-color: #b270a2;
   color: rgb(0, 0, 0);
   font-size: 12px;
@@ -243,5 +243,15 @@ container {
   border: none;
   cursor: pointer;
   border-radius: 15px;
+}
+
+/* style article */
+article {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  justify-content: center;
+  align-items: center;
 }
 /* aaaaaaaaaaa */
