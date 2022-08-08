@@ -9,13 +9,33 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+/* Style footer and navbar */
+.NavBar {
+  padding: 1.2% 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: bisque;
+  text-transform: uppercase;
+}
+
+.FooterNav {
+  margin-top: 10rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: bisque;
+  text-transform: uppercase;
+}
+main {
+  padding: 1rem 1rem;
+}
 
 /* Style image */
 .Producto {
   width: 211px;
   height: 211px;
   object-fit: fill;
-  border-radius: 10%;
+  border-radius: 15%;
 }
 
 /* style dropdown menu */
@@ -147,6 +167,7 @@ container {
   align-items: center;
   align-content: center;
   background-position: center;
+  text-align: end;
 }
 
 /* estilos boton Mas opciones */
@@ -171,6 +192,7 @@ container {
 
 .CopyPoliAviso {
   color: black;
+  font-size: 85%;
 }
 
 /* link de redes style */
@@ -179,6 +201,7 @@ container {
   text-align: right;
   align-items: center;
   align-content: center;
+  font-size: 75%;
 }
 
 /* H1 style */
@@ -194,10 +217,10 @@ container {
 }
 .VerMH {
   position: relative;
-  top: 60%;
+  top: 10%;
   left: 61%;
-  transform: translate(-30%, -30%);
-  -ms-transform: translate(-30%, -30%);
+  transform: translate(-90%, -120%);
+  -ms-transform: translate(-90%, -120%);
   background-color: #b270a2;
   color: rgb(0, 0, 0);
   font-size: 12px;
@@ -209,10 +232,10 @@ container {
 
 .ComprarH {
   position: relative;
-  top: 60%;
-  left: 60%;
-  transform: translate(-30%, -30%);
-  -ms-transform: translate(-30%, -30%);
+  top: 50%;
+  left: 79%;
+  transform: translate(-90%, -250%);
+  -ms-transform: translate(-90%, -250%);
   background-color: #b270a2;
   color: rgb(0, 0, 0);
   font-size: 12px;
