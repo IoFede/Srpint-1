@@ -1,8 +1,8 @@
 /* HTML style*/
-.HTML {
+html {
   background-color: #513252;
 }
-.BODYS {
+body {
   background-color: #fce2db;
   align-items: center;
   background-size: cover;
@@ -162,16 +162,63 @@ container {
   color: white;
 }
 
-/* estilos de link footer */
-.Link_footer {
+.WriteBar {
+  border: none;
+  border-color: #7a4069;
+  background-color: #7a4069;
+  color: #7a4069;
+  box-shadow: 2px 2px #7a4495;
+  height: 10%;
+  width: 25%;
+  font-size: 110%;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  border-radius: 20px;
+}
+/* estilos de link footer -----------*/
+
+/* .Link_footer {
   color: black;
+  forced-color-adjust: black;
   align-items: center;
   align-content: center;
   background-position: center;
   text-align: end;
+  font-size: 120%;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+} */
+.fa {
+  padding: 0px;
+  width: 0px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px 1px;
 }
 
-/* estilos boton Mas opciones */
+.fa:hover {
+  opacity: 0.8;
+}
+
+.fa-facebook {
+  color: rgb(0, 0, 0);
+}
+
+.fa-twitter {
+  color: rgb(0, 0, 0);
+}
+
+.fa-instagram {
+  color: rgb(0, 0, 0);
+}
+
+.fa-linkedin {
+  color: rgb(0, 0, 0);
+}
+
+/* estilos boton Mas opciones -----------*/
 
 .btnMasOpciones {
   background-color: #b270a2;
