@@ -3,12 +3,23 @@ html {
   background-color: #513252;
 }
 body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
   background-color: #fce2db;
-  align-items: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
+
+/* Header style */
+header {
+  width: 100%;
+  min-height: 2cm;
+}
+
 /* Style footer and navbar */
 .NavBar {
   padding: 1.2% 0;
@@ -28,7 +39,13 @@ body {
 }
 
 main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   padding: 1rem 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Style image */
@@ -125,11 +142,19 @@ container {
 
 /* estilo footer navbar */
 
-.FooterNav {
+footer {
+  width: 100%;
+  max-height: 10cm;
   background-color: #513252;
-  padding: 10px;
+  padding: 1em;
   text-align: center;
   color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+footer section {
+  margin: 16px 0px;
 }
 
 /* Aliniación de imagen logo header */
@@ -137,7 +162,7 @@ container {
 .LOGOH {
   width: 50px;
   height: 50px;
-  position: relative;
+  position: center;
   top: 0;
   left: 0;
 }
@@ -149,6 +174,15 @@ container {
   position: relative;
   top: 0;
   left: 0;
+}
+
+/* style FlexIconos */
+
+.FlexIconos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 /* estilo de SearchBar */
@@ -259,10 +293,6 @@ container {
 }
 
 /* boton de comprar y ver mas style */
-.ContainerH {
-  position: relative;
-  width: 50%;
-}
 .VerMH {
   position: relative;
   /* top: 10%;
@@ -303,3 +333,35 @@ article {
   align-items: center;
 }
 /* aaaaaaaaaaa */
+
+/* style FlexProductos body */
+
+.FlexProductos {
+  display: flex;
+  flex-direction: column;
+}
+
+.FlexProductos article {
+  margin: 1em;
+  background-color: #7a4495;
+  border-radius: 15px;
+  padding: 1.5em;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  height: 350px;
+}
+
+/* media queris de footer ?Ç¿*/
+
+@media (min-width: 600px) {
+  .FlexProductos {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
