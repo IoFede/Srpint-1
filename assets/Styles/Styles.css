@@ -201,7 +201,7 @@ footer section {
   border-color: #7a4069;
   background-color: #7a4069;
   color: #7a4069;
-  box-shadow: 2px 2px #7a4495;
+  box-shadow: 1px 5px 10px 1px #7a4495;
   height: 10%;
   width: 25%;
   font-size: 110%;
@@ -354,14 +354,72 @@ article {
   height: 350px;
 }
 
-/* media queris de footer ?Ç¿*/
+/* media queris de todo ?Ç¿*/
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .FlexProductos {
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+  }
+  .FlexIconos {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: right;
+  }
+
+  footer {
+    width: 100%;
+    max-height: 15cm;
+    background-color: #513252;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  footer section {
+    margin: 16px 0px;
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .LOGOH {
+    width: 65px;
+    height: 65px;
+    top: 0;
+    left: 0;
+    position: center;
+  }
+  .LOGOF {
+    flex: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: none;
+    align-content: center;
+    align-items: center;
+    position: center;
+    width: 65px;
+    height: 65px;
+  }
+  .CopyPoliAviso {
+    display: flex;
+    flex: auto;
+    max-width: 47%;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
   }
 }
