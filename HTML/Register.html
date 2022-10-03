@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" class="HTML">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="../assets/Styles/Register.css" />
+    <link rel="stylesheet" href="../assets/Styles/Reset.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="BODYS">
+
+    <header>
+        <nav class="NavBar" navbar-default>
+            <ul>
+                <div class="dropdown">
+
+                    <button class="dropbtn">
+                        <div class="container">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="/Home.html">Home</a>
+                        <a href="/HTML/Detail_product.html">Detail Product</a>
+                        <a href="/HTML/Login.html">Login</a>
+                        <a href="/HTML/Register.html">Register</a>
+                        <a href="/HTML/Service.html">Service</a>
+                        <a href="/HTML/Shopping_cart.html">Shopping Cart</a>
+                    </div>
+                </div>
+            </ul>
+            <label class="SearchBar" for="site-search"> </label>
+            <input class="WriteBar" type="search" placeholder="Search..." id="site-search" name="q" />
+            <img class="LOGOH" src="/assets/img/LOGO/LogoL.png" alt="Logo" />
+
+        </nav>
+    </header>
+    <main>
+        <h1 class=""></h1>
+
+        <section class="register-form">
+            <form action="./success.html" method="post">
+
+                <!-- Nombre completo -->
+                <label for="nombreCompleto">Nombre completo</label>
+                <input type="text" name="nombreCompleto" id="nombreCompleto" autofocus>
+
+                <label for="nombreUsuario">Nombre de usuario</label>
+                <input type="text" name="nombreUsuario" id="nombreUsuario" value="">
+
+                <label for="email">Correo electronico</label>
+                <input type="email" name="email" id="email" autocomplete="email">
+
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password" value="">
+
+                <label for="re_password">Repetir contraseña</label>
+                <input type="password" name="re_password" id="re_password">
+
+                <label for="nacimiento">Fecha de nacimiento</label>
+                <input type="date" name="nacimiento" id="nacimiento" max="2004-01-01">
+
+                <label for="fotoPerfil">Foto de perfil</label>
+                <input type="file" name="fotoPerfil" id="fotoPerfil" accept=".png,.jpg,.jpeg,.webp">
+
+                <label for="pais">Selecciona tu pais</label>
+                <select name="pais" id="pais" required>
+
+                    <option value="" style="color: gray;">Seleccione</option>
+                    <option disabled>------------------------</option>
+                    <option value="AR">Argentina</option>
+                    <option value="BR">Brasil</option>
+                    <option value="PY">Paraguay</option>
+                    <option value="UY">Uruguay</option>
+
+                </select>
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="telefono" id="telefono">
+
+                <!-- Genero -->
+                <label for="genero">Género</label><br>
+                <span>Femenino</span>
+                <input type="radio" name="genero" id="genero" value="femenino">
+
+                <span>Masculino</span>
+                <input type="radio" name="genero" id="genero" value="masculino" checked>
+
+                <span>Otro</span>
+                <input type="radio" name="genero" id="genero" value="otro">
+                <br>
+                <!-- Final de Genero -->
+
+                <input type="checkbox" name="newsletter" id="newsletter" checked>
+                <label for="newsletter">Suscribirme al newsletter</label>
+
+                <br>
+
+                <input type="checkbox" name="terminos" id="terminos" required>
+                <label for="terminos">Acepto <a href="">terminos y condiciones</a></label>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="CopyPoliAviso">
+            <div>Copyrights 2022 ©</div>
+            <div>Politica de Privacidad</div>
+            <div>Aviso Legal</div>
+        </section>
+        <nav>
+            <p>
+                <img class="LOGOF" src="/assets/img/LOGO/LogoL.png" alt="Logo" />
+            </p>
+        </nav>
+        <section>
+            <ul class="FlexIconos">
+                <li class="Link_footer">
+                    <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                </li>
+                <li class="Link_footer">
+                    <a href="https://twitter.com/home" target="_blank" class="fa fa-twitter"></a>
+                </li>
+                <li class="Link_footer">
+                    <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+                </li>
+                <li class="Link_footer">
+                    <a href="https://ar.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+                </li>
+            </ul>
+        </section>
+        </nav>
+    </footer>
+</body>
+
+</html>

@@ -47,11 +47,23 @@ main {
   align-items: center;
   justify-content: center;
 }
-
+/* TODO */
+form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  font-size: 100%;
+  font: inherit;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
 /* Style image */
 .Producto {
-  width: 100%;
-  height: auto;
+  width: 211px;
+  height: 211px;
   object-fit: fill;
   border-radius: 25px;
 }
@@ -118,18 +130,18 @@ container {
 }
 
 /* .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {
-  opacity: 0;
-}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
-} */
+      -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+      transform: rotate(-45deg) translate(-9px, 6px);
+    }
+    
+    .change .bar2 {
+      opacity: 0;
+    }
+    
+    .change .bar3 {
+      -webkit-transform: rotate(45deg) translate(-8px, -8px);
+      transform: rotate(45deg) translate(-8px, -8px);
+    } */
 
 /* estilo navbar */
 
@@ -225,17 +237,17 @@ footer section {
 /* estilos de link footer -----------*/
 
 /* .Link_footer {
-  color: black;
-  forced-color-adjust: black;
-  align-items: center;
-  align-content: center;
-  background-position: center;
-  text-align: end;
-  font-size: 120%;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-} */
+      color: black;
+      forced-color-adjust: black;
+      align-items: center;
+      align-content: center;
+      background-position: center;
+      text-align: end;
+      font-size: 120%;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+    } */
 .fa {
   padding: 0px;
   width: 0px;
@@ -310,9 +322,9 @@ footer section {
 .VerMH {
   position: relative;
   /* top: 10%;
-  left: 61%;
-  transform: translate(-90%, -120%);
-  -ms-transform: translate(-90%, -120%); */
+      left: 61%;
+      transform: translate(-90%, -120%);
+      -ms-transform: translate(-90%, -120%); */
   background-color: #b270a2;
   color: rgb(0, 0, 0);
   font-size: 12px;
@@ -331,9 +343,9 @@ footer section {
 .ComprarH {
   position: relative;
   /* top: 50%;
-  left: 79%;
-  transform: translate(-90%, -250%);
-  -ms-transform: translate(-90%, -250%); */
+      left: 79%;
+      transform: translate(-90%, -250%);
+      -ms-transform: translate(-90%, -250%); */
   background-color: #b270a2;
   color: rgb(0, 0, 0);
   font-size: 12px;
@@ -367,27 +379,21 @@ article {
   display: flex;
   flex-direction: column;
 }
-
-.FlexProductos article {
-  margin: 1em 0;
-}
-
 /* 
-.FlexProductos article {
-  margin: 1em;
-  background-color: #7a4495;
-  border-radius: 15px;
-  padding: 1.5em;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-
-  height: 350px;
-} */
+    .FlexProductos article {
+      margin: 1em;
+      background-color: #7a4495;
+      border-radius: 15px;
+      padding: 1.5em;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    
+      height: 350px;
+    } */
 
 .ContainerH {
-  max-width: 18em;
   margin: 1em;
   background-color: #7a4495;
   border-radius: 25px;
@@ -396,7 +402,7 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: auto;
+  height: 211px;
 }
 
 /* media queris de todo ?Ç¿*/
@@ -459,6 +465,13 @@ article {
     width: 65px;
     height: 65px;
   }
+  .H3Form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+  }
   .CopyPoliAviso {
     display: flex;
     flex: auto;
@@ -467,8 +480,16 @@ article {
     align-content: stretch;
     justify-content: space-evenly;
   }
-  .ContainerH {
-    width: 100%;
-    max-width: 24em;
-  }
+}
+
+.login-form {
+  width: 400px;
+  height: 340px;
+  background: #b270a2;
+  margin: auto;
+  margin-top: 180px;
+  box-shadow: 7px 2px 5px #513252;
+  padding: 20px 30px;
+  border-top: 4px solid #513252;
+  color: black;
 }

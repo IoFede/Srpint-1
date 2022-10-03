@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="HTML">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="../assets/Styles/Shopping_cart_style.css" />
+    <link rel="stylesheet" href="../assets/Styles/Reset.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="BODYS">
+
+    <header>
+        <nav class="NavBar" navbar-default>
+            <ul>
+                <div class="dropdown">
+
+                    <button class="dropbtn">
+                        <div class="container">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="/Home.html">Home</a>
+                        <a href="/HTML/Detail_product.html">Detail Product</a>
+                        <a href="/HTML/Login.html">Login</a>
+                        <a href="/HTML/Register.html">Register</a>
+                        <a href="/HTML/Service.html">Service</a>
+                        <a href="/HTML/Shopping_cart.html">Shopping Cart</a>
+                    </div>
+                </div>
+            </ul>
+            <label class="SearchBar" for="site-search"> </label>
+            <input class="WriteBar" type="search" placeholder="Search..." id="site-search" name="q" />
+            <img class="LOGOH" src="/assets/img/LOGO/LogoL.png" alt="Logo" />
+
+        </nav>
+    </header>
+    <main>
+        <h1>Shopping Cart</h1>
+
+        <div class="shopping-cart">
+
+            <div class="column-labels">
+                <label class="product-image">Image</label>
+                <label class="product-details">Product</label>
+                <label class="product-price">Price</label>
+                <label class="product-quantity">Quantity</label>
+                <label class="product-removal">Remove</label>
+                <label class="product-line-price">Total</label>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="https://s.cdpn.io/3/dingo-dog-bones.jpg">
+                </div>
+                <div class="product-details">
+                    <div class="product-title">Dingo Dog Bones</div>
+                    <p class="product-description">The best dog bones of all time. Holy crap. Your dog will be begging
+                        for these things! I got curious once and ate one myself. I'm a fan.</p>
+                </div>
+                <div class="product-price">12.99</div>
+                <div class="product-quantity">
+                    <input type="number" value="2" min="1">
+                </div>
+                <div class="product-removal">
+                    <button class="remove-product">
+                        Remove
+                    </button>
+                </div>
+                <div class="product-line-price">25.98</div>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="https://s.cdpn.io/3/large-NutroNaturalChoiceAdultLambMealandRiceDryDogFood.png">
+                </div>
+                <div class="product-details">
+                    <div class="product-title">Nutro™ Adult Lamb and Rice Dog Food</div>
+                    <p class="product-description">Who doesn't like lamb and rice? We've all hit the halal cart at 3am
+                        while quasi-blackout after a night of binge drinking in Manhattan. Now it's your dog's turn!</p>
+                </div>
+                <div class="product-price">45.99</div>
+                <div class="product-quantity">
+                    <input type="number" value="1" min="1">
+                </div>
+                <div class="product-removal">
+                    <button class="remove-product">
+                        Remove
+                    </button>
+                </div>
+                <div class="product-line-price">45.99</div>
+            </div>
+
+            <div class="totals">
+                <div class="totals-item">
+                    <label>Subtotal</label>
+                    <div class="totals-value" id="cart-subtotal">71.97</div>
+                </div>
+                <div class="totals-item">
+                    <label>Tax (5%)</label>
+                    <div class="totals-value" id="cart-tax">3.60</div>
+                </div>
+                <div class="totals-item">
+                    <label>Shipping</label>
+                    <div class="totals-value" id="cart-shipping">15.00</div>
+                </div>
+                <div class="totals-item totals-item-total">
+                    <label>Grand Total</label>
+                    <div class="totals-value" id="cart-total">90.57</div>
+                </div>
+            </div>
+
+            <button class="checkout">Checkout</button>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <section class="CopyPoliAviso">
+            <div>Copyrights 2022 ©</div>
+            <div>Politica de Privacidad</div>
+            <div>Aviso Legal</div>
+        </section>
+        <nav>
+            <p>
+                <img class="LOGOF" src="/assets/img/LOGO/LogoL.png" alt="Logo" />
+            </p>
+        </nav>
+        <section>
+            <ul class="FlexIconos">
+                <li class="Link_footer">
+                    <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                </li>
+                <li class="Link_footer">
+                    <a href="https://twitter.com/home" target="_blank" class="fa fa-twitter"></a>
+                </li>
+                <li class="Link_footer">
+                    <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+                </li>
+                <li class="Link_footer">
+                    <a href="https://ar.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+                </li>
+            </ul>
+        </section>
+        </nav>
+    </footer>
+</body>
+
+</html>
